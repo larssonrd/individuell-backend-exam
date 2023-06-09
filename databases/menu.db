@@ -7,6 +7,3 @@
 {"title":"Gustav Adolfsbakelse","desc":"En kunglig bakelse.","price":50,"_id":"dkYIjhT9nZhYnT6H"}
 {"title":"Caffè Doppio","desc":"Bryggd på månadens bönor.","price":49,"_id":"jdhW6ClobWK7pXlL"}
 {"title":"Latte Macchiato","desc":"Bryggd på månadens bönor.","price":49,"_id":"srUZ3eapAit6anvI"}
-{"title":"Nynynyny","desc":"Finaste produkten av dom alla","price":45,"createdAt":{"$$date":1686323359843},"_id":"u72u0MLlTcTkKwae"}
-{"title":"Uppdaterad produkt","desc":"Finaste produkten av dom alla","price":45,"createdAt":{"$$date":1686323359843},"_id":"u72u0MLlTcTkKwae","modifiedAt":{"$$date":1686323438705}}
-{"$$deleted":true,"_id":"u72u0MLlTcTkKwae"}

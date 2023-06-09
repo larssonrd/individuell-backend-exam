@@ -1,3 +1,3 @@
 {"username":"Testadmin","password":"$2b$10$qubcID8M0Hpxo65oLpDOEe87oAHIABktHYNBap1Sl6epgD6f5fCti","userId":"1abd6b19-5e11-45bd-9a6f-e967025cf909","role":"admin","_id":"5rUxIJXx03woZV2R"}
-{"username":"Testuser","password":"$2b$10$4rbiIr.dgVUlJPEKHPjmIubFQ7870o.QfZTtVER32JtOfMjwFaR7O","userId":"7051348d-6d0f-4947-9895-74bd7ba41892","role":"user","_id":"w5bybQnVBMRgyGAL"}
 {"username":"Testuser2","password":"$2b$10$GtEpd7PdQhyHydl6Zydt3O5ysH1XJinpgqYTV5uB1iwyglM2KXOqK","userId":"70bc99aa-89e7-41a8-838e-f1872944af19","role":"user","_id":"L8LkNPfQSnVNDAWN"}
+{"username":"Testuser","password":"$2b$10$4rbiIr.dgVUlJPEKHPjmIubFQ7870o.QfZTtVER32JtOfMjwFaR7O","userId":"7051348d-6d0f-4947-9895-74bd7ba41892","role":"user","_id":"w5bybQnVBMRgyGAL"}
