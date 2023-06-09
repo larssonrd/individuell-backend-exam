@@ -2,14 +2,14 @@
 
 ### Login & Signup
 
-Vid inlogg så får man en JWT tillbaka som sedan måste skickas med i headers under Authorization vid alla admin requests. Giltig 1 timme.
-Vid skapande av nytt konto så får man role: user som standard.
-bcrypt används för kryptering av lösenord.
+Vid inlogg så får man en JWT token tillbaka som sedan måste skickas med i headers under Authorization vid alla admin requests. Giltig 1 timme.
+Vid skapande av nytt konto så får man role: user som standard. Bcrypt används för kryptering av lösenord.
 
-URL: http://localhost:5000/api/user/login
-URL: http://localhost:5000/api/user/signup
+URL Login: http://localhost:5000/api/user/login	
 
-Adminkonton nedan kan användas för att att logga in med och få en JWT för att komma åt admin endpointsen.
+URL Signup: http://localhost:5000/api/user/signup
+
+Adminkontot nedan kan användas för att att logga in med och få en JWT för att komma åt admin endpointsen.
 
 ```
 {
@@ -20,7 +20,7 @@ Adminkonton nedan kan användas för att att logga in med och få en JWT för at
 
 ### Lägg till produkt i menyn
 
-ID genereras per automatik av nedb, så skickas med in i body. Ok av Maja. Middleware kontrollerar så att title, desc och price finns med. Samt att det inte finns någon produkt med samma title.
+ID genereras per automatik av nedb, så skickas inte med i body. Ok av Maja. Middleware kontrollerar så att title, desc och price finns med. Samt att det inte finns någon produkt med samma title.
 
 URL: http://localhost:5000/api/admin/menu/add
 
